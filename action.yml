@@ -1,0 +1,13 @@
+name: 'Get Workflow Jobs'
+description: 'Get the overall status of the currently running workflow and its jobs.'
+inputs:
+  token:
+    description: 'The GitHub authentication token.'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'activity'
+  color: 'gray-dark'

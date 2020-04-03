@@ -1,0 +1,26 @@
+{
+  "name": "get-workflow-jobs-action",
+  "version": "1.0.0",
+  "description": "An action to information about the jobs in the running workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenschelkopf/get-workflow-jobs-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenschelkopf/get-workflow-jobs-action/issues"
+  },
+  "homepage": "https://github.com/jenschelkopf/get-workflow-jobs-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "@zeit/ncc": "^0.22.0"
+  }
+}
